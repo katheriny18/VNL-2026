@@ -1,0 +1,94 @@
+@import url('https://googleapis.com');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo-escuro: #1c11b9;
+    --cor-fundo-medio: #780d81;
+    --cor-fundo-claro: #1dd5e2;
+    --cor-primaria: #6b045a;
+    --cor-primaria-escura: #009958;
+    --cor-secundaria: #ffe135;
+    --cor-texto-claro: #edfaf3;
+    --cor-texto-escuro: #052e1c;
+    --cor-texto-suave: #7db89a;
+    --cor-borda: rgba(0, 201, 122, 0.12);
+
+    --fonte-principal: "Poppins", sans-serif;
+    --fonte-display: "EB Garamond", serif;
+   
+    --espacamento-secao: 6rem;
+    --raio-borda: 14px;
+    --raio-borda-pequeno: 8px;
+    --largura-maxima: 1140px;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto-claro);
+    line-height: 1.6;
+}
+
+#navbar {
+    position: sticky;      
+    top: 0;
+    padding:  0;
+    background-color: var(--cor-fundo-claro);
+    border-bottom: 1px solid var(--cor-borda);
+}
+  
+.nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    max-width: var(--largura-maxima); 
+    background-color: var(--cor-fundo-claro);
+    margin: 0 auto;
+    padding: 0;
+}
+  
+.nav-logo {
+    font-family: var(--fonte-display);
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+  
+.logo-destaque {
+    color: var(--cor-secundaria); /* Alterado para amarelo para dar contraste no fundo azul */
+}
+  
+.nav-links {
+    display: flex;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    gap: 20px; 
+}
+
+.nav-links li {
+    display: inline-block;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--cor-texto-claro); /* Cor clara para leitura sobre o azul */
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+}
+  
+/* Muda de cor ao passar o mouse */
+.nav-links a:hover {
+    color: var(--cor-secundaria); /* Destaca em amarelo ao passar o mouse */
+}
+
+.secao {
+    padding: var(--espacamento-secao) 0px;
+}
