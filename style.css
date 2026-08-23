@@ -42,7 +42,7 @@ body { background: #0c0c0c; font-family: Arial, sans-serif; color: rgb(231, 240,
 .header-texto p { margin-top: 15px; font-size: 14px; color: #ddd; line-height: 1.5; }
 
 .hero-bola { position: relative; z-index: 3; margin-left: auto; }
-.hero-bola img { width: 350px; filter: drop-shadow(0 20px 30px rgb(22, 195, 10)); }
+.hero-bola img { width: 350px; filter: drop-shadow(0 20px 30px rgb(50, 237, 21)); }
 
 .barra-verde {
   position: absolute;
