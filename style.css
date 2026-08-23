@@ -26,7 +26,7 @@ body { background:#120000; font-family: Arial, sans-serif; color:rgb(154, 172, 1
   top:0;
   width:70%;
   height:100%;
-  background:#3a4320;
+  background: #0047ff;
   clip-path: polygon(0 0, 85% 0, 70% 100%, 0 100%);
 }
 
