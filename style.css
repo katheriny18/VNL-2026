@@ -1,17 +1,15 @@
-* { margin: 900; padding:900; box-sizing:border-color; }
-body { background: #0a0a0a; } font-family: Arial, sans-serif; color:rgb(154, 172, 174); }
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a0a; font-family: Arial, sans-serif; color: white; }
 
 .topo {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:20px 40px;
- background: #0a0a0a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #0a0a0a;
 }
 .topo nav { margin-left: auto; }
 .topo nav a { color: white; text-decoration: none; margin-left: 30px; font-size: 14px; }
-.hero-vnl {
-  
   position:relative;
   height: 500px;
   background: #0a0a0a;
