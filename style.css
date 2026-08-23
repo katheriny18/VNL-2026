@@ -1,51 +1,68 @@
- * { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #0a0a0a; font-family: Arial, sans-serif; color: white; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0b0b3d; font-family: Arial, sans-serif; color: white; }
 
 .topo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background: #0a0a0a;
+  padding: 25px 60px;
+  background: #0b0b3d;
 }
-.topo nav { margin-left: auto; }
-.topo nav a { color: white; text-decoration: none; margin-left: 30px; font-size: 14px; }
+.topo .logo { font-weight: bold; }
+.topo nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 35px;
+  font-size: 14px;
+}
+
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  background: #0b0b3d;
+  overflow: hidden;
+}
 
 .hero-vnl {
-  position:relative;
-  height: 500px;
-  background: #0a0a0a;
-  display:flex;
-  align-items:center;
-  padding:0 60px;
-  overflow:hidden;
-}
-.hero-bg-verde {
-  position:absolute;
-  left:0;
-  top:0;
-  width:70%;
-  height:100%;
-  background: #0047ff;
-  clip-path: polygon(0 0, 85% 0, 70% 100%, 0 100%);
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(180deg, #2d5bff 0%, #00bfff 100%);
+  clip-path: polygon(0 0, 88% 0, 68% 100%, 0 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 70px;
 }
 
-.hero-texto { position:relative; z-index:2; }
-.hero-texto h1 { font-size:70px; line-height:0.9; font-style:italic; }
-.verde { color:#c6e872; }
-.hero-texto small { letter-spacing:4px; display:block; margin:15px 0; color:#ccc; }
-.hero-texto p { margin-top:15px; font-size:14px; color:#ddd; line-height:1.5; }
+.hero-texto h1 {
+  font-size: 62px;
+  color: #fdf8a0;
+  font-style: italic;
+  font-weight: 900;
+}
 
-.hero-bola { position:relative; z-index:3; margin-left:auto; }
-.hero-bola img { width:350px; filter: drop-shadow(0 20px 30px black); }
+.hero-texto .sub {
+  margin-top: 35px;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #d0e8ff;
+}
 
-.barra-verde {
-  position:absolute;
-  bottom:0;
-  right:0;
-  background:#c6e872;
-  color:#121212;
-  padding:12px 40px;
-  font-size:12px;
+.hero-texto .desc {
+  margin-top: 18px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #e8f4ff;
+}
+
+.tag-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  background: #fdf8a0;
+  color: #0b0b3d;
+  padding: 8px 40px 8px 25px;
+  font-size: 10px;
+  font-weight: bold;
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
 }
