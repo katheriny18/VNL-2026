@@ -10,6 +10,8 @@ body { background: #0a0a0a; font-family: Arial, sans-serif; color: white; }
 }
 .topo nav { margin-left: auto; }
 .topo nav a { color: white; text-decoration: none; margin-left: 30px; font-size: 14px; }
+
+.hero-vnl {
   position:relative;
   height: 500px;
   background: #0a0a0a;
@@ -18,7 +20,6 @@ body { background: #0a0a0a; font-family: Arial, sans-serif; color: white; }
   padding:0 60px;
   overflow:hidden;
 }
-
 .hero-bg-verde {
   position:absolute;
   left:0;
