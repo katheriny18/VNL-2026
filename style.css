@@ -59,8 +59,8 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   position: absolute;
   right: 0;
   bottom: 20px;
-  background: #fdf8a0;
-  color: #0b0b3d;
+  background: linear-gradient(105deg, #3A0CA3 0%, #F72585 100%);
+  color: white;
   padding: 8px 40px 8px 25px;
   font-size: 10px;
   font-weight: bold;
