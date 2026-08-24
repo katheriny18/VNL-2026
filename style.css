@@ -1,12 +1,12 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #0b0b3d; font-family: Arial, sans-serif; color: white; }
+body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 
 .topo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 60px;
-  background: #0b0b3d;
+  background: #000007;
 }
 .topo .logo { font-weight: bold; }
 .topo nav a {
@@ -20,7 +20,7 @@ body { background: #0b0b3d; font-family: Arial, sans-serif; color: white; }
   position: relative;
   width: 100%;
   height: 520px;
-  background: #0b0b3d;
+  background: #0f0f0f;
   overflow: hidden;
 }
 
