@@ -107,10 +107,10 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 .tag-palco{ font-size:10px; background:#f03498; color:#fff; padding:3px 8px; border-radius:4px; font-weight:700; }
 
 /* Cores neon continuam */
-.card-Equipe:nth-child(1){ color:#e3f20f;  border-color:#e6e608; }
-.card-Equipe:nth-child(2){ color:#e3f20f;  border-color:#e6e608; }
-.card-Equipe:nth-child(3){ color:#e3f20f;  border-color:#e6e608; }
-.card-Equipe:nth-child(4){ color:#e3f20f;  border-color:#e6e608; }
-.card-Equipe:nth-child(5){ color:#e3f20f;  border-color:#e6e608; }
-.card-Equipe:nth-child(6){ color:#e3f20f;  border-color:#e6e608; }
+.card-Equipe:nth-child(1){ color:#8e0595;  border-color:#8e0595; ; }
+.card-Equipe:nth-child(2){ color:#8e0595;  border-color:#8e0595; }
+.card-Equipe:nth-child(3){ color:#8e0595;  border-color:#8e0595;  }
+.card-Equipe:nth-child(4){ color:#8e0595;  border-color:#8e0595;  }
+.card-Equipe:nth-child(5){ color:#8e0595;  border-color:#8e0595;  }
+.card-Equipe:nth-child(6){ color:#8e0595;  border-color:#8e0595;  }
 
