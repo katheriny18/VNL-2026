@@ -94,12 +94,23 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   height:200px; object-fit:cover; display:block;
 }
 
+/* AQUI MUDOU - BARRA COR DA VNL */
 .card-Equipe .card-corpo{
-  background:#000; color:#fff;
+  background:#0A1931; /* azul oficial VNL */
+  color:#fff;
   padding:12px 18px;
+  border-top:3px solid #FFCC00; /* dourado VNL */
 }
 
-.card-Equipe .card-corpo h3{ margin:0; font-size:16px; font-weight:800; }
+.card-Equipe .card-corpo h3{ margin:0; font-size:16px; font-weight:800; text-transform:uppercase; }
 .card-Equipe .card-corpo h4{ margin:4px 0; font-size:11px; opacity:.7; font-weight:400; }
-.tag-palco{ font-size:10px; background:rgba(255,255,255,.15); padding:3px 8px; border-radius:4px; }
+.tag-palco{ font-size:10px; background:#E4002B; color:#fff; padding:3px 8px; border-radius:4px; font-weight:700; }
+
+/* Cores neon continuam */
+.card-Equipe:nth-child(1){ color:#00e5ff; border-color:#00e5ff; }
+.card-Equipe:nth-child(2){ color:#ff3af2; border-color:#ff3af2; }
+.card-Equipe:nth-child(3){ color:#ffae00; border-color:#ffae00; }
+.card-Equipe:nth-child(4){ color:#7a7cff; border-color:#7a7cff; }
+.card-Equipe:nth-child(5){ color:#ff4b91; border-color:#ff4b91; }
+.card-Equipe:nth-child(6){ color:#39ff7a; border-color:#39ff7a; }
 
