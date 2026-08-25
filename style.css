@@ -68,7 +68,7 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 }
 
 #equipes{
-  background:#022263; padding:55px 20px; border-radius:30px;
+  background:#080c14; padding:40px 20px; border-radius:20px;
 }
 
 .grid-selecoes{
@@ -82,7 +82,7 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   border:1.5px solid;
   border-radius:8px;
   overflow:hidden;
-  background:#021f64;
+  background:#0f172a;
   box-shadow:0 0 18px currentColor;
 }
 
@@ -102,5 +102,4 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 .card-Equipe .card-corpo h3{ margin:0; font-size:16px; font-weight:800; }
 .card-Equipe .card-corpo h4{ margin:4px 0; font-size:11px; opacity:.7; font-weight:400; }
 .tag-palco{ font-size:10px; background:rgba(255,255,255,.15); padding:3px 8px; border-radius:4px; }
-
 
