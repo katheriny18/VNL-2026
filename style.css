@@ -68,7 +68,7 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 }
 
 #equipes{
-  background:#1f5ae4; padding:40px 20px; border-radius:20px;
+  background:#131314; padding:40px 20px; border-radius:20px;
 }
 
 .grid-selecoes{
@@ -82,7 +82,7 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   border:1.5px solid;
   border-radius:8px;
   overflow:hidden;
-  background:#1f5ae4;
+  background:#131314;
   box-shadow:0 0 18px currentColor;
 }
 
@@ -96,10 +96,10 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 
 /* AQUI MUDOU - BARRA COR DA VNL */
 .card-Equipe .card-corpo{
-  background:#1f5ae4; /* azul oficial VNL */
+  background:#131314; /* azul oficial VNL */
   color:#fff;
   padding:12px 18px;
-  border-top:3px solid #1f5ae4; /* dourado VNL */
+  border-top:3px solid #131314; /* dourado VNL */
 }
 
 .card-Equipe .card-corpo h3{ margin:0; font-size:16px; font-weight:800; text-transform:uppercase; }
