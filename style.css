@@ -67,3 +67,36 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
 }
 
+#equipes{
+  background:#061d4b; padding: 70px; px 90px ; border-radius:20px;
+
+}
+
+.grid-selecoes{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.card-Equipe{
+  transform: skewX(-7deg);
+  border:1.5px solid;
+  border-radius:8px;
+  overflow:hidden;
+ background:#061d4b;
+  box-shadow:0 0 18px currentColor;
+}
+
+.card-Equipe .card-imagem,
+.card-Equipe .card-corpo{ transform: skewX(7deg); }
+
+.card-Equipe .card-imagem img{
+  width:110%; margin-left:-5%;
+  height:200px; object-fit:cover; display:block;
+}
+
+.card-Equipe .card-corpo{
+  background:#d174b8; color:#fff;
+  padding:12px 18px;
+}
+
