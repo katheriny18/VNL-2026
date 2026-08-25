@@ -68,14 +68,13 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 }
 
 #equipes{
-  background:#061d4b; padding: 70px; px 90px ; border-radius:20px;
-
+  background:#022263; padding:55px 20px; border-radius:30px;
 }
 
 .grid-selecoes{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 35px;
+  gap:24px;
 }
 
 .card-Equipe{
@@ -83,7 +82,7 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   border:1.5px solid;
   border-radius:8px;
   overflow:hidden;
- background:#061d4b;
+  background:#021f64;
   box-shadow:0 0 18px currentColor;
 }
 
@@ -96,7 +95,12 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 }
 
 .card-Equipe .card-corpo{
-  background:#d174b8; color:#fff;
+  background:#000; color:#fff;
   padding:12px 18px;
 }
+
+.card-Equipe .card-corpo h3{ margin:0; font-size:16px; font-weight:800; }
+.card-Equipe .card-corpo h4{ margin:4px 0; font-size:11px; opacity:.7; font-weight:400; }
+.tag-palco{ font-size:10px; background:rgba(255,255,255,.15); padding:3px 8px; border-radius:4px; }
+
 
