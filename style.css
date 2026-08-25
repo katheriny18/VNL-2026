@@ -74,7 +74,7 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 .grid-selecoes{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
-  gap:24px;
+  gap:50px;
 }
 
 .card-Equipe{
