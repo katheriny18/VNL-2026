@@ -140,7 +140,7 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 /* CADA LINHA DA TABELA */
 div[class^="cada-partida-jogo-"]{
   display:grid;
-  grid-template-columns:80px 200px 1fr 120px 140px;
+  grid-template-columns:110px 1fr 80px 145px !important;
   align-items:center;
   background:rgba(255,255,255,0.08);
   border-bottom:1px solid rgba(255,255,255,0.15);
@@ -190,6 +190,7 @@ div[class^="cada-partida-jogo-"]{
   display:inline-block;
   text-align:center;
   transition:.2s;
+  justify-self:end !important;
 }
 
 .btn-assistir:hover{ 
