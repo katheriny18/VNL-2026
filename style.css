@@ -256,9 +256,9 @@ section#classificacao.tabela-classificacao .pos{
   font-size:28px !important;
 }
 
-section#classificacao.tabela-classificacao .linha-time:nth-child(2) .pos{ color:#FFD700 !important; }
+section#classificacao.tabela-classificacao .linha-time:nth-child(2) .pos{ color:#C0C0C0 !important; }
 section#classificacao.tabela-classificacao .linha-time:nth-child(3) .pos{ color:#C0C0C0 !important; }
-section#classificacao.tabela-classificacao .linha-time:nth-child(4) .pos{ color:#CD7F32 !important; }
+section#classificacao.tabela-classificacao .linha-time:nth-child(4) .pos{ color:#C0C0C0 !important; }
 
 section#classificacao.tabela-classificacao .bandeira img{
   width:48px !important;
