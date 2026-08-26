@@ -95,6 +95,22 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   border-radius: 20px;
 }
 
+#equipes{
+  background: #000510;
+  padding: 80px 40px;
+  border-radius: 20px;
+}
+
+.secao-titulo{
+  margin-bottom: 50px;
+  padding-left: 10px;
+}
+.secao-titulo h1{
+  margin: 0 0 10px 0;
+  font-size: 38px;
+}
+
+
 
 .grid-selecoes{
   display:grid;
