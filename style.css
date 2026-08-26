@@ -114,11 +114,12 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
 .card-Equipe:nth-child(5){ color:#8e0595;  border-color:#8e0595;  }
 .card-Equipe:nth-child(6){ color:#8e0595;  border-color:#8e0595;  }
 
-/* TABELA VNL ROXA - TELA TODA - SEM BANDEIRA - SO ASSISTIR */
+/* tabaela */
+
 #programacao.programacao-da-VNL-2026{
   width:100vw;
   margin-left:calc(-50vw + 50%);
-  background:linear-gradient(135deg,#2e1065,#5b21b6,#7c3aed);
+  background:linear-gradient(135deg,#0d0222,#0d0121,#0d0122);
   padding:40px 5vw;
   box-sizing:border-box;
   font-family: Inter, sans-serif;
