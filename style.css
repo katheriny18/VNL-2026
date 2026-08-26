@@ -34,6 +34,16 @@ body { background: #00000a; font-family: Arial, sans-serif; color: white; }
   padding: 0 70px;
 }
 
+.bola-volei{
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 360px;
+  z-index: 10;
+  filter: drop-shadow(0 0 25px rgba(247,37,133,0.6));
+}
+
 .hero-texto{
   display: flex;
   flex-direction: column;
