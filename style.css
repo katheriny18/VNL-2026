@@ -365,7 +365,7 @@ section#destaque.destaque .tabela-box td{
 }
 
 section#destaque.destaque .tabela-box tbody tr:nth-child(1) td:first-child{
-  color:#FFD700 !important;
+  color:#C0C0C0 !important;
   font-weight:900 !important;
   font-size:16px !important;
 }
@@ -374,7 +374,7 @@ section#destaque.destaque .tabela-box tbody tr:nth-child(2) td:first-child{
   font-weight:900 !important;
 }
 section#destaque.destaque .tabela-box tbody tr:nth-child(3) td:first-child{
-  color:#CD7F32 !important;
+ color:#C0C0C0 !important;
   font-weight:900 !important;
 }
 
