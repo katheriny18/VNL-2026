@@ -526,4 +526,24 @@ footer#contato .footer-fundo p{
   margin:0 !important;
 }
 
+/* CELULAR - até 768px */
+@media (max-width: 768px){
+  /* MENU */
+  .topo{
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  .topo nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .topo nav a{
+    margin-left: 0;
+    font-size: 12px;
+  }
+}
+
 
