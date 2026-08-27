@@ -246,15 +246,6 @@ div[class^="cada-partida-jogo-"]{
   color:#5b21b6 !important; 
 }
 
-/* CELULAR */
-@media(max-width:800px){
-  div[class^="cada-partida-jogo-"]{ 
-    grid-template-columns:1fr 1fr; 
-    height:auto; 
-    padding:15px; 
-    gap:8px; 
-  }
-}
 
 /* TABELA TELA INTEIRA - 100% */
 section#classificacao.tabela-classificacao{
