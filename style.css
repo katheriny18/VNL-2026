@@ -596,6 +596,19 @@ footer#contato .footer-fundo p{
   }
 
 
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fffdf6;
+    border-bottom: 4px solid #c62828;
+
+}
+
+
+
+
+
 
 
 
