@@ -574,7 +574,7 @@ footer#contato .footer-fundo p{
         grid-template-columns: 1fr !important;
     }
 
-    /* TABELA - faz rolar pro lado se não couber */
+    /* TABELA - faz rolar pro lado */
     table {
         display: block;
         overflow-x: auto;
@@ -584,31 +584,22 @@ footer#contato .footer-fundo p{
 } 
 
 
-  .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  body {
-    padding-top: 60px; /* para o conteúdo não ficar por baixo */
-  }
+/* MENU FIXO NO TOPO */
+.topo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #000;
+}
 
-
-  .topbar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: #fffdf6;
-    border-bottom: 4px solid #c62828;
-
+body{
+  padding-top: 60px;
 }
 
 
-
-
-
+  
 
 
 
