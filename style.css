@@ -520,3 +520,66 @@ footer#contato .footer-fundo p{
   margin:0 !important;
 }
 
+@media (max-width: 870px) {
+    
+    section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* MENU um embaixo do outro */
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px 20px;
+        width: 90%;
+        text-align: center;
+    }
+
+    /* HERO centralizado no celular */
+    .hero-wrapper {
+        clip-path: none !important; /* tira o corte torto no celular */
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* GRID DE EQUIPES - 1 coluna no celular */
+    .grid-selecoes {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+
+    .card-Equipe {
+        transform: none !important; /* tira o skew torto */
+    }
+
+    .card-Equipe * {
+        transform: none !important; /* desinclina tudo dentro */
+    }
+
+    /* PARTIDAS - 1 coluna */
+    .grid-programacao, .cada-partida-jogo-1 {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* TABELA - faz rolar pro lado se não couber */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+    }
+} 
+
