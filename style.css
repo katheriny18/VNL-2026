@@ -520,39 +520,94 @@ footer#contato .footer-fundo p{
   margin:0 !important;
 }
 
-@media (max-width: 870px) {
-  div[class*="cada-partida-jogo"] {
-    display: grid !important;
-    grid-template-columns: 90px 1fr 45px 135px !important;
-    align-items: center !important;
-    gap: 10px !important;
-    text-align: left !important;
+@media (max-width: 870px) { 
+  .topo {
+    padding: 20px;
   }
 
-  /* jogos continuam onde já estão na esquerda */
-  div[class*="cada-partida-jogo"] > div:first-child {
-    grid-column: 1 !important;
-    text-align: left !important;
+  .topo nav  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+
+  .topo nav a{ 
+    margin-left: 0;
+    padding: 8px 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-vnl {
+    width: 100%;
+    padding: 0 30px;
+    clip-path: none;
+  }
+
+  .hero-texto {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-texto h1 {
+    font-size: 45px ;
+  }
+
+  .hero-texto small {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .hero-texto p {
+    font-size: 14px;
+  }
+
+  .tag-bottom {
+    left: 20px;
+    right: 20px;
+    text-align: right;
+  }
+
+  #equipes {
+    padding: 50px 20px;
+  }
+
+  .grid-selecoes {
+    grid-template-columns: 1fr;
+    gap: 25px
+  }
+  
+  .card-equipe {
+    transform: none;
+  }
+
+  .card-equipe ,.card-imagem,
+  .card-equipe , .card-imagem {
+    transform: none;
+  }
+
+  .card-equipe ,.card-imagem img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 870px) {
+  div[class="cada-partida-jogo-"] {
+    grid-template-columns: 1fr !important;
+    gap: 10px;
+    text-align: center;
   }
 
   .Equipes {
-    grid-column: 2 !important;
-    text-align: left !important;
+    text-align: center;
   }
 
-  /* placar ao lado do botão */
   .placar {
-    grid-column: 3 !important;
-    display: flex !important;
-    justify-content: center !important;
-  }
-
-  /* botão ASSISTIR no lado vazio da direita */
-  div[class*="cada-partida-jogo"] a,
-  div[class*="cada-partida-jogo"] button {
-    grid-column: 4 !important;
-    justify-self: end !important;
-    margin-left: 0 !important;
+    justify-content: center;
   }
 
   section#classificacao.table-classificacao .linha-time {
@@ -587,3 +642,29 @@ footer#contato .footer-fundo p{
     align-items: center !important;
   }
 }
+
+@media (min-width: 871px) {
+
+  .topo nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .grid-selecoes {
+  grid-template-columns: repeat(3, 1fr);
+  }
+
+  div[class="cada-partida-jogo-"] {
+    grid-template-columns: 110px 1fr 80px 145px;
+  }
+
+  section#destaque.destaque {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+    
