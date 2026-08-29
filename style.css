@@ -532,7 +532,6 @@ footer#contato .footer-fundo p{
     align-items: center;
   }
 
-
   .topo nav a{ 
     margin-left: 0;
     padding: 8px 15px;
@@ -597,9 +596,10 @@ footer#contato .footer-fundo p{
 
 @media (max-width: 870px) {
   div[class="cada-partida-jogo-"] {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr 135px !important;
     gap: 10px;
-    text-align: center;
+    text-align: left;
+    align-items: center;
   }
 
   .Equipes {
@@ -663,8 +663,3 @@ footer#contato .footer-fundo p{
     grid-template-columns: 1fr;
   }
 }
-
-
-
-
-    
