@@ -532,6 +532,7 @@ footer#contato .footer-fundo p{
     align-items: center;
   }
 
+
   .topo nav a{ 
     margin-left: 0;
     padding: 8px 15px;
@@ -639,6 +640,24 @@ footer#contato .footer-fundo p{
 
   footer#contato .redes-sociais {
     align-items: center !important;
+  }
+
+  .topo nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .grid-selecoes {
+  grid-template-columns: repeat(3, 1fr);
+  }
+
+  div[class="cada-partida-jogo-"] {
+    grid-template-columns: 110px 1fr 80px 145px;
+  }
+
+  section#destaque.destaque {
+    grid-template-columns: 1fr;
   }
 
 }
