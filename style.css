@@ -520,90 +520,130 @@ footer#contato .footer-fundo p{
   margin:0 !important;
 }
 
-@media (max-width: 870px) {
-    
-    section {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+@media (max-width: 870px) { 
+  .topo {
+    padding: 20px;
+  }
 
-    /* MENU um embaixo do outro */
-    nav {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        align-items: center;
-    }
-    
-    nav a {
-        padding: 10px 20px;
-        width: 90%;
-        text-align: center;
-    }
+  .topo nav  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
 
-    /* HERO centralizado no celular */
-    .hero-wrapper {
-        clip-path: none !important; /* tira o corte torto no celular */
-    }
+  .topo nav a{ 
+    margin-left: 0;
+    padding: 8px 15px;
+    width: 100%;
+    text-align: center;
+  }
 
-    .hero-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-    }
+  .hero-vnl {
+    width: 100%;
+    padding: 0 30px;
+    clip-path: none;
+  }
 
-    /* GRID DE EQUIPES - 1 coluna no celular */
-    .grid-selecoes {
-        grid-template-columns: 1fr !important;
-        gap: 20px;
-    }
+  .hero-texto {
+    align-items: center;
+    text-align: center;
+  }
 
-    .card-Equipe {
-        transform: none !important; /* tira o skew torto */
-    }
+  .hero-texto h1 {
+    font-size 45px;
+  }
 
-    .card-Equipe * {
-        transform: none !important; /* desinclina tudo dentro */
-    }
+  .hero-texto small {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
 
-    /* PARTIDAS - 1 coluna */
-    .grid-programacao, .cada-partida-jogo-1 {
-        grid-template-columns: 1fr !important;
-    }
+  .hero-texto p {
+    font-size: 14px;
+  }
 
-    /* TABELA - faz rolar pro lado */
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-        width: 100%;
-    }
-} 
+  .tag-bottom {
+    left: 20px;
+    right: 20px;
+    text-align: center;
+  }
 
+  #equipes {
+    padding: 50px 20px;
+  }
 
-/* MENU FIXO NO TOPO */
-.topo{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  background: #000;
-}
-
-body{
-  padding-top: 60px;
-}
-
-
+  .grid-selecoes {
+    grid-template-columns: 1fr;
+    gap: 25px
+  }
   
+  .card-equipe {
+    transform: none;
+  }
+
+  .card-equipe ,.card-imagem,
+  .card-equipe , .card-imagem {
+    transform: none;
+  }
+
+  .card-equipe ,.card-imagem img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 870px) {
+  div[class="cada-partida-jogo-"] {
+    grid-template-columns: 1fr !important;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .Equipes {
+    text-align: center;
+  }
+
+  .placar {
+    justify-content: center;
+  }
+
+  section#classificacao.table-classificacao .linha-time {
+    grid-template-columns: 50px 60px 1fr !important;
+    padding: 15px 20px !important;
+  }
+
+  section#classificacao.tabela-classificacao .pos {
+    font-size: 22px !important;
+  }
+
+  section#classificacao.taabela-classificacao .bandeira img {
+    width: 40px !important;
+    height: 27px !important;
+  }
+
+  section#classificacao.tabela-classificacao .nome {
+    font-size: 16px !important;
+  }
+
+  section#destaque.destaque {
+    grid-template-columns: 1fr !important;
+    padding: 30px 15px 60px !important;
+  }
+
+  section#destaque.destaque .tabela-box {
+    width: 100% !important;
+    overflow-x: auto !important;
+  }
+
+  footer#contato .redes-sociais {
+    align-items: center !important;
+  }
+
+}
 
 
 
 
-
-
-
+    
