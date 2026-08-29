@@ -522,24 +522,37 @@ footer#contato .footer-fundo p{
 
 @media (max-width: 870px) {
   div[class*="cada-partida-jogo"] {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-between !important;
+    display: grid !important;
+    grid-template-columns: 90px 1fr 45px 135px !important;
     align-items: center !important;
+    gap: 10px !important;
     text-align: left !important;
   }
 
-  div[class*="cada-partida-jogo"] a,
-  div[class*="cada-partida-jogo"] button {
-    margin-left: auto !important;
+  /* jogos continuam onde já estão na esquerda */
+  div[class*="cada-partida-jogo"] > div:first-child {
+    grid-column: 1 !important;
+    text-align: left !important;
   }
 
   .Equipes {
+    grid-column: 2 !important;
     text-align: left !important;
   }
 
+  /* placar ao lado do botão */
   .placar {
-    justify-content: flex-start !important;
+    grid-column: 3 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* botão ASSISTIR no lado vazio da direita */
+  div[class*="cada-partida-jogo"] a,
+  div[class*="cada-partida-jogo"] button {
+    grid-column: 4 !important;
+    justify-self: end !important;
+    margin-left: 0 !important;
   }
 
   section#classificacao.table-classificacao .linha-time {
