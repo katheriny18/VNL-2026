@@ -520,94 +520,26 @@ footer#contato .footer-fundo p{
   margin:0 !important;
 }
 
-@media (max-width: 870px) { 
-  .topo {
-    padding: 20px;
-  }
-
-  .topo nav  {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    align-items: center;
-  }
-
-  .topo nav a{ 
-    margin-left: 0;
-    padding: 8px 15px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero-vnl {
-    width: 100%;
-    padding: 0 30px;
-    clip-path: none;
-  }
-
-  .hero-texto {
-    align-items: center;
-    text-align: center;
-  }
-
-  .hero-texto h1 {
-    font-size: 45px ;
-  }
-
-  .hero-texto small {
-    font-size: 11px;
-    letter-spacing: 2px;
-  }
-
-  .hero-texto p {
-    font-size: 14px;
-  }
-
-  .tag-bottom {
-    left: 20px;
-    right: 20px;
-    text-align: right;
-  }
-
-  #equipes {
-    padding: 50px 20px;
-  }
-
-  .grid-selecoes {
-    grid-template-columns: 1fr;
-    gap: 25px
-  }
-  
-  .card-equipe {
-    transform: none;
-  }
-
-  .card-equipe ,.card-imagem,
-  .card-equipe , .card-imagem {
-    transform: none;
-  }
-
-  .card-equipe ,.card-imagem img {
-    width: 100%;
-    margin-left: 0;
-  }
-
-}
-
 @media (max-width: 870px) {
-  div[class="cada-partida-jogo-"] {
-    grid-template-columns: 1fr 135px !important;
-    gap: 10px;
-    text-align: left;
-    align-items: center;
+  div[class*="cada-partida-jogo"] {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    text-align: left !important;
+  }
+
+  div[class*="cada-partida-jogo"] a,
+  div[class*="cada-partida-jogo"] button {
+    margin-left: auto !important;
   }
 
   .Equipes {
-    text-align: center;
+    text-align: left !important;
   }
 
   .placar {
-    justify-content: center;
+    justify-content: flex-start !important;
   }
 
   section#classificacao.table-classificacao .linha-time {
@@ -640,26 +572,5 @@ footer#contato .footer-fundo p{
 
   footer#contato .redes-sociais {
     align-items: center !important;
-  }
-}
-
-@media (min-width: 871px) {
-
-  .topo nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .grid-selecoes {
-  grid-template-columns: repeat(3, 1fr);
-  }
-
-  div[class="cada-partida-jogo-"] {
-    grid-template-columns: 110px 1fr 80px 145px;
-  }
-
-  section#destaque.destaque {
-    grid-template-columns: 1fr;
   }
 }
