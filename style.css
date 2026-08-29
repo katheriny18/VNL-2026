@@ -552,7 +552,7 @@ footer#contato .footer-fundo p{
   }
 
   .hero-texto h1 {
-    font-size 45px;
+    font-size: 45px ;
   }
 
   .hero-texto small {
@@ -641,8 +641,11 @@ footer#contato .footer-fundo p{
   footer#contato .redes-sociais {
     align-items: center !important;
   }
+}
 
-  .topo nav{
+@media (min-width: 871px) {
+
+  .topo nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -659,7 +662,6 @@ footer#contato .footer-fundo p{
   section#destaque.destaque {
     grid-template-columns: 1fr;
   }
-
 }
 
 
