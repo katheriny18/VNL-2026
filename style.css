@@ -596,11 +596,41 @@ footer#contato .footer-fundo p{
 }
 
 @media (max-width: 870px) {
-  /* IMAGENS VOLTANDO AO NORMAL */
-  .grid-selecoes {
-    grid-template-columns: 1fr !important;
-    gap: 20px !important;
+  div[class="cada-partida-jogo-"] {
+    display: grid !important;
+    grid-template-columns: 85px 1fr 35px 120px !important;
+    align-items: center !important;
+    gap: 6px !important;
+    padding: 12px 8px !important;
   }
+
+  div[class="cada-partida-jogo-"] > div:nth-child(1) {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+  }
+
+  div[class="cada-partida-jogo-"] > div:nth-child(2) {
+    font-size: 14px !important;
+    text-align: center !important;
+  }
+
+  div[class="cada-partida-jogo-"] > div:nth-child(3) {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    position: static !important;
+    transform: none !important;
+  }
+
+  div[class="cada-partida-jogo-"] a {
+    width: 115px !important;
+    font-size: 13px !important;
+    padding: 10px 5px !important;
+    justify-self: end !important;
+    position: static !important;
+    transform: none !important;
+  }
+}
 
   .card-equipe,
   .card-equipe .card-imagem,
