@@ -596,6 +596,33 @@ footer#contato .footer-fundo p{
 }
 
 @media (max-width: 870px) {
+  /* IMAGENS VOLTANDO AO NORMAL */
+  .grid-selecoes {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .card-equipe,
+  .card-equipe .card-imagem,
+  .card-equipe .card-imagem img {
+    transform: none !important;
+    clip-path: none !important;
+  }
+
+  .card-equipe {
+    width: 100% !important;
+  }
+
+  .card-equipe .card-imagem {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .card-equipe .card-imagem img {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
   div[class="cada-partida-jogo-"] {
     grid-template-columns: 1fr !important;
     gap: 10px;
@@ -652,7 +679,7 @@ footer#contato .footer-fundo p{
   }
 
   .grid-selecoes {
-  grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   div[class="cada-partida-jogo-"] {
@@ -663,8 +690,3 @@ footer#contato .footer-fundo p{
     grid-template-columns: 1fr;
   }
 }
-
-
-
-
-    
